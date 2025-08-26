@@ -1,0 +1,7 @@
+[project]
+name = "dcmi-2025-shared-open-metadata-as-critical-ai-infrastructure"
+version = "0.1.0"
+description = "Talk proposal and "
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
