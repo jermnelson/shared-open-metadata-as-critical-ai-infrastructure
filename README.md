@@ -15,3 +15,6 @@ Core endeavors to provide such a shared, open knowledge base using the
 properties of open RDF-based metadata from contributing institutions, along 
 with AI services to augment and support consumption by LLMs, thereby becoming 
 a critical component of our communities' AI infrastructure.
+
+## Resources
+- [When Bots Meet Books](https://rosalynmetz.substack.com/p/when-bots-meet-books)
