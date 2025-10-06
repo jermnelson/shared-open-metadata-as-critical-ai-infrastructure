@@ -1,0 +1,29 @@
+{
+  "name": "DCMI 2025 - Shared Open Metadata as Critical AI Infrastructure",
+  "debug": true,
+  "files": {
+    "./doc/ai-agents.md": "./doc/ai-agents.md",
+    "./doc/blue-core-ai-agents.md": "./doc/blue-core-ai-agents.md",
+    "./doc/blue-core-graph-rag.md": "./doc/blue-core-graph-rag.md",
+    "./doc/blue-core-graph-services.md ": "./doc/blue-core-graph-services.md",
+    "./doc/blue-core-mcp-server.md": "./doc/blue-core-mcp-server.md",
+    "./doc/extinction-ai.md": "./doc/extinction-ai.md",
+    "./doc/final-thoughts-cautious-optimism.md": "./doc/final-thoughts-cautious-optimism.md",
+    "./doc/glam-graphs.md": "./doc/glam-graphs.md",
+    "./doc/graph-rag.md": "./doc/graph-rag.md",
+    "./doc/intro-blue-core.md": "./doc/intro-blue-core.md",
+    "./doc/llms-hallucinations.md": "./doc/llms-hallucinations.md",
+    "./doc/open-metadata.md": "./doc/open-metadata.md",
+    "./doc/rag.md": "./doc/rag.md",
+    "./doc/welcome.md": "./doc/welcome.md"
+  },
+  "packages": [
+    "markdown",
+    "./static/wheels/puepy-0.6.5-py3-none-any.whl"
+  ],
+  "js_modules": {
+    "main": {
+      "https://cdn.jsdelivr.net/npm/morphdom@2.7.4/+esm": "morphdom"
+    }
+  }
+}
