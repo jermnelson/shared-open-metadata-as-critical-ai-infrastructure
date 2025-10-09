@@ -16,6 +16,7 @@ topics = [
    {"name": "Knowledge Graph RAG", "stub": "graph-rag"},
    {"name": "GLAM Knowledge Graphs", "stub": "glam-graphs"},
    {"name": "Open Metadata", "stub": "open-metadata"},
+   {"name": "GLAM Historical Token Affirmation", "stub": "glam-token-affirmation"},
    {"name": "Introduction to Blue Core", "stub": "intro-blue-core"},
    {"name": "Blue Core Graph Services", "stub": "blue-core-graph-services"},
    {"name": "Blue Core Graph RAG", "stub": "blue-core-graph-rag"},
