@@ -1,4 +1,4 @@
-## GLAM Historical Token Affirmation
+## Historical Token Affirmation
 With AI Slop, low quality AI generated content, being spammed across
 social and traditional media[^AI_SLOP] accompanied by employee AI
 "workslop"[^WRK_SLOP], we cultural heritage have an unique asset with our paper and 
