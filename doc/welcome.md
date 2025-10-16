@@ -1,1 +1,10 @@
 ## Welcome!
+My name is Jeremy Nelson and I am software engineer in Stanford University 
+Libraries Digital Libraries Systems and Services. Thank-you to the DCMI for
+inviting me to talk about what I think is a critical 
+role of Linked Open Data in the Generative AI ecosystem.
+
+**DISCLAIMER:** Generative AI was used in copyediting these remarks and for
+selected images.
+
+<img src="static/img/qr-code.png" alt="Presentation QR code" style="width: 250px">

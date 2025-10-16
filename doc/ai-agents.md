@@ -14,7 +14,9 @@ Already these AI browsers present significant concerns in higher education where
 learning management systems, respond to discussions, take quizzes, and simulate other student behavior
 with no or minimal direction by the student.[^2] These new AI browsers present significant security threats 
 and potential legal liability but also  offer significant time savings and productivity boosts for users 
-automating their personal workflows.
+automating their personal and professional workflows.
+
+
 
 [^1]: [Claude for Chrome](https://www.anthropic.com/news/claude-for-chrome)
 [^2]: [Colleges And Schools Must Block And Ban Agentic AI Browsers Now. Here’s Why.](https://www.forbes.com/sites/avivalegatt/2025/09/25/colleges-and-schools-must-block-agentic-ai-browsers-now-heres-why/)
