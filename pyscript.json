@@ -15,7 +15,10 @@
     "./doc/intro-blue-core.md": "./doc/intro-blue-core.md",
     "./doc/llms-hallucinations.md": "./doc/llms-hallucinations.md",
     "./doc/open-metadata.md": "./doc/open-metadata.md",
+    "./doc/people-as-ai-eyelash-mite.md": "./doc/people-as-ai-eyelash-mite.md",
+    "./doc/people-as-ai-mitochondria.md": "./doc/people-as-ai-mitochondria.md",
     "./doc/rag.md": "./doc/rag.md",
+    "./doc/references.md": "./doc/references.md",
     "./doc/welcome.md": "./doc/welcome.md"
   },
   "packages": [
