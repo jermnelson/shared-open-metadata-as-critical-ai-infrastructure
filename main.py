@@ -13,6 +13,9 @@ app.install_router(Router, link_mode=Router.LINK_MODE_HASH)
 topics = [
    {"name": "AI Agents", "stub": "ai-agents"},
    {"name": "LLMs Hallucinations", "stub": "llms-hallucinations"},
+   {"name": "Extinction through AI", "stub": "extinction-ai"},
+   {"name": "People as AI's Eyelash Mites", "stub": "people-as-ai-eyelash-mite"},
+   {"name": "People as AI's Mitochondria", "stub": "people-as-ai-mitochondria"},
    {"name": "Retrieval Augmented Generation (RAG)", "stub": "rag"},
    {"name": "Knowledge Graph RAG", "stub": "graph-rag"},
    {"name": "GLAM Knowledge Graphs", "stub": "glam-graphs"},
@@ -23,8 +26,8 @@ topics = [
    {"name": "Graph RAG", "stub": "blue-core-graph-rag"},
    {"name": "AI Agents", "stub": "blue-core-ai-agents"},
    {"name": "MCP Server", "stub": "blue-core-mcp-server"},
-   {"name": "Extinction through AI", "stub": "extinction-ai"}, 
-   {"name": "Final Thoughts Or Cautious Optimism", "stub": "final-thoughts-cautious-optimism"}
+    
+   {"name": "Final Thoughts", "stub": "final-thoughts"}
 ]
 
 topic_names = {}
@@ -45,6 +48,9 @@ class PresentationHead(Component):
             with t.div(class_name="col"):
                 t.h1("Shared Open Metadata as Critical AI Infrastructure")
                 t.h2("Jeremy Nelson, Stanford University Libraries")
+            with t.div(class_name="col-2"):
+                with t.a(href="https://library.stanford.edu/"):
+                     t.img(src="static/img/sul-logo.png", style="width: 95%", alt="Stanford University Libraries")
         t.hr()
 
 
@@ -64,6 +70,10 @@ class PresentationFooter(Component):
 @t.component()
 class PresentationNavigation(Component):
 
+    def icon(self, topic):
+        if "icon" in topic:
+            t.i(classes=["bi", topic["icon"]])
+
     def topic_link(self, topic):
         with t.li(class_name="nav-item"):
             t.a(topic["name"], 
@@ -73,13 +83,15 @@ class PresentationNavigation(Component):
     def populate(self):
         with t.ul(classes=["nav", "flex-column"]):
             with t.li(class_name="nav-item"):
-                t.a("Home", class_name="nav-link", href="/")
-            t.li("AI Issues", class_name="nav-item")
+                with t.a(class_name="nav-link", href="/"):
+                    self.icon("Home", {"icon": "bi-house-door-fill"})
+            t.li("AI Orientation & Issues", class_name="nav-item")
             for topic in topics[0:2]:
                 self.topic_link(topic)
-            t.li("RAG", class_name="nav-item")
+            t.li("Cautious Optimism re: People & AI", class_name="nav-item")
             for topic in topics[2:5]:
                 self.topic_link(topic)
+            t.li("RAG Medium Dive")
             t.li("GLAM Response", class_name="nav-item")
             for topic in topics[5:7]:
                 self.topic_link(topic)
