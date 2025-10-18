@@ -21,12 +21,12 @@ topics = [
    {"name": "GLAM Knowledge Graphs", "stub": "glam-graphs", "icon":"bi-book"},
    {"name": "Open Metadata", "stub": "open-metadata", "icon": "bi-patch-check"},
    {"name": "Historical Token Affirmation", "stub": "token-affirmation", "icon": "bi-bookmark-check-fill"},
-   {"name": "Introduction to Blue Core", "stub": "intro-blue-core"},
+   {"name": "Introduction to Blue Core", "stub": "intro-blue-core", "icon": "bi-mic"},
    {"name": "Graph Services", "stub": "blue-core-graph-services"},
    {"name": "Graph RAG", "stub": "blue-core-graph-rag"},
-   {"name": "AI Agents", "stub": "blue-core-ai-agents", "icon": "bi-robot-fill"},
-   {"name": "MCP Server", "stub": "blue-core-mcp-server"},
-   {"name": "Final Thoughts", "stub": "final-thoughts"},
+   {"name": "AI Agents", "stub": "blue-core-ai-agents", "icon": "bi-robot"},
+   {"name": "MCP Server", "stub": "blue-core-mcp-server", "icon": "" },
+   {"name": "Final Thoughts", "stub": "final-thoughts", "icon": "bi-lightbulb"},
    {"name": "References", "stub": "references"}
 
 ]
@@ -125,11 +125,13 @@ class PresentationNavigation(Component):
             t.li("GLAM Response", class_name="nav-item")
             for topic in topics[7:10]:
                 self.topic_link(topic)
-            t.li("Blue Core", class_name="nav-item")
-            for topic in topics[10:14]:
+            with t.li(class_name="nav-item"):
+                t.img(src="static/img/blue-core-v1.png", alt="Blue Core Website", style="width: 120px;")
+            for topic in topics[10:15]:
                 self.topic_link(topic)
             t.li("Wrap-up", class_name="nav-item")
-            self.topic_link(topics[-1])
+            for topic in topics[15:] :
+                self.topic_link(topic)
             
        
 
