@@ -1,4 +1,5 @@
-## Blue Core AI Agents
+<h2><i class="bi-robot"></i> Blue Core AI Agents</h2>
+
 From its inception, Blue Core is building AI functionality into its 
 infrastructure. As explained in a previous slide, Blue Core Triples
 Vector store, provides Graph-based RAG for use by both internal and

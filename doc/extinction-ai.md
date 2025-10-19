@@ -3,3 +3,4 @@ The development of Artificial General Intelligence (AGI) invokes heated emotions
 of the debate. From Eliezer Yudknowsky and Nate Soares recent book, *If Anyone Builds it, Everyone Die*,
 to Sam Altman's boosterism of AGI as another OpenAI product. 
 
+![Extinction Throug AI](static/img/dalle-3-extinction-through-ai.png)

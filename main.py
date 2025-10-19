@@ -22,18 +22,18 @@ topics = [
    {"name": "Open Metadata", "stub": "open-metadata", "icon": "bi-patch-check"},
    {"name": "Historical Token Affirmation", "stub": "token-affirmation", "icon": "bi-bookmark-check-fill"},
    {"name": "Introduction to Blue Core", "stub": "intro-blue-core", "icon": "bi-mic"},
-   {"name": "Graph Services", "stub": "blue-core-graph-services"},
-   {"name": "Graph RAG", "stub": "blue-core-graph-rag"},
+   {"name": "Graph Toolbox", "stub": "blue-core-graph-services", "icon": "bi-layout-text-window-reverse" },
+   {"name": "Naive Graph RAG", "stub": "blue-core-graph-rag", "icon": "bi-arrows-move"},
    {"name": "AI Agents", "stub": "blue-core-ai-agents", "icon": "bi-robot"},
-   {"name": "MCP Server", "stub": "blue-core-mcp-server", "icon": "" },
+   {"name": "MCP Server", "stub": "blue-core-mcp-server", "icon": "bi-pci-card-network" },
    {"name": "Final Thoughts", "stub": "final-thoughts", "icon": "bi-lightbulb"},
-   {"name": "References", "stub": "references"}
+   {"name": "References", "stub": "references", "icon": "bi-patch-question"}
 
 ]
 
-topic_names = {}
+topic_lookup = {}
 for topic in topics:
-    topic_names[topic['stub']] = topic['name']
+    topic_lookup[topic['stub']] = topic
 
 home = pathlib.Path(".").parent
 docs = home / "doc"
@@ -69,21 +69,26 @@ class PresentationFooter(Component):
                     with t.a(href="https://library.stanford.edu/"):
                         t.img(src="static/img/sul-logo.png", alt="Stanford University Libraries", style="width: 300px; padding: 1em;")
                 with t.div(class_name="col"):
-                    with t.a(href="https://www.dublincore.org/conferences/2025/"):
-                        t.img(src="static/img/dcmi-2025-home-banner.svg", style="width: 200px; padding: 1em;", alt="DCMI 2025 Logo")
-                    with t.ul(class_name=""):
-                         with t.li(class_name=""):
-                             t.a("Source Code", href="https://github.com/jermnelson/shared-open-metadata-as-critical-ai-infrastructure")
+                    with t.div(classes=["bg-warning-subtle", "rounded-2"], style="margin: 1em;"):
+                        with t.a(href="https://www.dublincore.org/conferences/2025/"):
+                            t.img(src="static/img/dcmi-2025-home-banner.svg", style="width: 200px; padding: 1em;", alt="DCMI 2025 Logo")
+                        with t.ul(class_name=""):
+                            with t.li(class_name=""):
+                                 t.a("Source Code", href="https://github.com/jermnelson/shared-open-metadata-as-critical-ai-infrastructure")
                 with t.div(class_name="col"):
-                    with t.a(href="https://bluecore.info/"):
-                        t.img(src="static/img/blue-core-v1.png", alt="Blue Core Website", style="width: 300px;")
-                    with t.ul(class_name=""):
-                         with t.li(class_name=""):
-                             t.a("Blue Core Website", href="https://bluecore.info/")
-                         with t.li(class_name=""):
-                             t.a("Development Blue Core", href="https://dev.bcld.info")
-                         with t.li(class_name=""):
-                             t.a("Blue Core AI Agents", href="https://github.com/blue-core-lod/bluecore-agents")
+                    with t.div(classes=["bg-light", "rounded-2"], style="margin: 1em; padding: 1em;"):
+                        with t.a(href="https://bluecore.info/"):
+                            t.img(src="static/img/blue-core-v1.png", alt="Blue Core Website", style="width: 300px;")
+                        with t.ul(class_name=""):
+                            with t.li(class_name=""):
+                                t.a("Blue Core Website", href="https://bluecore.info/")
+                            with t.li(class_name=""):
+                                t.a("Development Blue Core", href="https://dev.bcld.info")
+                            with t.li(class_name=""):
+                                t.a("Blue Core AI Agents", href="https://github.com/blue-core-lod/bluecore-agents")
+                with t.div(class_name="col"):
+                    with t.a(href="https://jermnelson.github.io/shared-open-metadata-as-critical-ai-infrastructure/"):
+                         t.img(src="static/img/qr-code.png", alt="QR Code to Presentation Website", style="width: 125px;margin-top: 35px;")
                    
             with t.div(class_name="row"):
                 with t.div(class_name="col-10"):
@@ -141,12 +146,14 @@ class TopicPage(Page):
     props = ["topic_stub"]
 
     def populate(self):
+        topic = topic_lookup.get(self.topic_stub, "")
         md_path = docs / f"{self.topic_stub}.md"
         t.presentation_head()
         with t.div(class_name="row"):
             with t.div(class_name="col-3"):
                 t.presentation_navigation()
             with t.div(classes=["col", "overflow-scroll"]):
+                t.i(classes=[topic['icon'], "fs-1"])
                 raw_html = markdown.markdown(md_path.read_text(), extensions=['extra']) 
                 t(html(raw_html))
         t.presentation_footer()
