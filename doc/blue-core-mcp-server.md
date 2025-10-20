@@ -1,4 +1,5 @@
-## Blue Core Model Context Protocol (MCP) Server
+<h2><i class="bi-pci-card-network"></i> Blue Core Model Context Protocol (MCP) Server</h2>
+
 Released last year by [Anthropic](https://www.anthropic.com/), the 
 Model Context Protocol[^1] is an open-source specification for connecting AI
 agents and applications to external systems.
@@ -21,7 +22,6 @@ with a MCP Server. The MCP client maintains a connection
 to the MCP Server and then provides the model context to 
 the MCP Host that is forwarded to a generative AI model.
 
-### Blue Core API MCP Server
 
 
 [^1]: [What is the Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)

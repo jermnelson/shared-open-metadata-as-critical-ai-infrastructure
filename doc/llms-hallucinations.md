@@ -1,4 +1,5 @@
-## Hallucinations of Large Language Models
+<h2><i class="bi-chat-square-dots"></i> Hallucinations of Large Language Models</h2>
+
 A persistent problem, even for the frontier Large Language Models from OpenAI, Antropic, Google, and
 Deep Seek, is the tendency for these models to fabricate facts in an increasingly pervasive fashion.
 Large Language Models are transformer-based neural networks that predict

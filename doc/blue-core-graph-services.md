@@ -1,4 +1,5 @@
-## Blue Core Graph Services
+<h2><i class="bi-layout-text-window-reverse"></i> Blue Core Graph Services</h2>
+
 To enable management of Blue Core Linked Open Metadata, the Blue Core project provides
 two Linked Data Editors and a new Graph Toolbox.
 

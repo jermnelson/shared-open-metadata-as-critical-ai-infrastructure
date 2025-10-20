@@ -1,4 +1,5 @@
-## Knowledge Graph RAG
+<h2><i class="bi-node-plus"></i> Knowledge Graph RAG</h2>
+
 A specialized case of Retrieval Augmented Generation (RAG), using Knowledge 
 Graphs as means to ground and provide context for Large Language Models 
 responses, is offered as an add-on service by Neo4J[^1], Microsoft[^2],

@@ -1,4 +1,5 @@
-## Knowledge Graphs in Libraries, Museums, Galleries, and other Cultural Heritage Institutions 
+<h2><i class="bi-book"></i> Knowledge Graphs in Libraries, Museums, Galleries, and other Cultural Heritage Institutions </h2>
+
 In 2011, the Library of Congress released version 1.0 of the Bibliographic Framework vocabulary, shorted
 to BIBFRAME, as a replacement for MARC in describing bibliographic entities like books, images, serials,
 and other creative endeavors. BIBFRAME is a Resource Description Framework or RDF vocabulary that represents 

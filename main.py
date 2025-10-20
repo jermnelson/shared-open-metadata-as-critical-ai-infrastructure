@@ -22,7 +22,7 @@ topics = [
    {"name": "Open Metadata", "stub": "open-metadata", "icon": "bi-patch-check"},
    {"name": "Historical Token Affirmation", "stub": "token-affirmation", "icon": "bi-bookmark-check-fill"},
    {"name": "Introduction to Blue Core", "stub": "intro-blue-core", "icon": "bi-mic"},
-   {"name": "Graph Toolbox", "stub": "blue-core-graph-services", "icon": "bi-layout-text-window-reverse" },
+   {"name": "Graph Services", "stub": "blue-core-graph-services", "icon": "bi-layout-text-window-reverse" },
    {"name": "Naive Graph RAG", "stub": "blue-core-graph-rag", "icon": "bi-arrows-move"},
    {"name": "AI Agents", "stub": "blue-core-ai-agents", "icon": "bi-robot"},
    {"name": "MCP Server", "stub": "blue-core-mcp-server", "icon": "bi-pci-card-network" },
@@ -153,7 +153,6 @@ class TopicPage(Page):
             with t.div(class_name="col-3"):
                 t.presentation_navigation()
             with t.div(classes=["col", "overflow-scroll"]):
-                t.i(classes=[topic['icon'], "fs-1"])
                 raw_html = markdown.markdown(md_path.read_text(), extensions=['extra']) 
                 t(html(raw_html))
         t.presentation_footer()

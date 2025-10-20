@@ -1,4 +1,4 @@
-## Introduction to Blue Core
+<h2><i class="bi-mic"></i> Introduction to Blue Core</h2>
 
 The [Blue Core Project](https://bluecore.info/) is a collaborative endeavor by Cornell
 University, University of Pennsylvania, Library of Congress, University

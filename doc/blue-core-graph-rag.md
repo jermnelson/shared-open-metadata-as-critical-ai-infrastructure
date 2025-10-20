@@ -1,4 +1,5 @@
-## Blue Core Knowledge Graph RAG
+<h2><i class="bi-arrows-move"></i> Blue Core Naïve Knowledge Graph RAG</h2>
+
 ### Triples Vector Database for RAG 
 Similar to the recently announced Wikidata Vector Database and API[^1], the Blue Core project uses a
 [Milvus](https://milvus.io/) vector database to store Work and Instance triples vectors for use by 

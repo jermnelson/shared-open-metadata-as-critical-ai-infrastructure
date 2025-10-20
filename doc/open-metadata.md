@@ -1,4 +1,5 @@
-## Metadata as Open Data
+<h2><i class="bi-patch-check"></i> Metadata as Open Data</h2>
+
 An international movement to open-up research and other data, Open Knowledge provides 
 the definition of Open Data[^1] that is data that:
 

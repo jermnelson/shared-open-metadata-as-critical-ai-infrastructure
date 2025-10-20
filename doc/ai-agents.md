@@ -1,4 +1,4 @@
-## AI Agents
+<h2><i class="bi-robot"></i> AI Agents</h2>
 
 Beyond text, image, audio, or video generation from direct user prompts, AI agents based on generative AI
 pose challenges and opportunities. 
