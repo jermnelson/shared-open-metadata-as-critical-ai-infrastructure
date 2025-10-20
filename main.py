@@ -47,16 +47,43 @@ class PresentationHead(Component):
             with t.div(class_name="col-2"):
                 t.img(src="static/img/dcmi-2025-home-banner.svg", style="width: 90%", alt="DCMI 2025 Logo")
                 t.h5("22 October 2025")
-            with t.div(classes=["col", "mx-auto"]):
-                t.h1("Shared Open Metadata as Critical AI Infrastructure", style="text: center")
-                t.h2("Jeremy Nelson")
-                with t.h3():
+            with t.div(classes=["col", "align-middle"]):
+                t.h1("Shared Open Metadata as Critical AI Infrastructure")
+                t.h2("Jeremy Nelson", classes=["d-flex", "justify-content-center"])
+                with t.a(href="https://library.stanford.edu/", classes=["d-flex", "justify-content-center"]):
+                    t.img(src="static/img/sul-logo.png", style="width: 375px;", alt="Stanford University Libraries")
+                with t.p(classes=["d-flex", "justify-content-center"]):
                     t.a("jpnelson@stanford.edu", href="mailto:jpnelson@stanford.edu")
-            with t.div(class_name="col-2"):
-                with t.a(href="https://library.stanford.edu/"):
-                    t.img(src="static/img/sul-logo.png", style="width: 300px;", alt="Stanford University Libraries")
+              
         t.hr()
 
+@t.component()
+class PresentationButtons(Component):
+    props = ["topic"]
+  
+    def populate(self):
+        next_topic = None
+        previous_topic = None
+        for i,row in enumerate(topics):
+            if self.topic == row:
+                if i+1 < len(topics):
+                    next_topic = topics[i+1]
+                if i > 0:
+                    previous_topic = topics[i-1] 
+        with t.div(class_name="btn-group", role="group"):
+            if previous_topic:
+                with t.a(href=f"#topics/{previous_topic['stub']}",
+                         classes=["btn", "btn-secondary", "btn-lg"]):
+                    t.i(classes=["bi", "bi-arrow-left"])
+                    t.i(classes=["bi", previous_topic["icon"]])
+            with t.button(classes=["disabled", "btn", "btn-light", "btn-lg"], disabled="disabled"):
+                t.i(classes=["bi", self.topic["icon"]])
+            if next_topic:
+                with t.a(href=f"#topics/{next_topic['stub']}",
+                         classes=["btn", "btn-success", "btn-lg"]):
+                    t.i(classes=["bi", next_topic["icon"]])
+                    t.i(classes=["bi", "bi-arrow-right"])
+    
 
 @t.component()
 class PresentationFooter(Component):
@@ -138,8 +165,6 @@ class PresentationNavigation(Component):
             for topic in topics[15:] :
                 self.topic_link(topic)
             
-       
-
 
 @app.page("/topics/<topic_stub>")
 class TopicPage(Page):
@@ -155,6 +180,8 @@ class TopicPage(Page):
             with t.div(classes=["col", "overflow-scroll"]):
                 raw_html = markdown.markdown(md_path.read_text(), extensions=['extra']) 
                 t(html(raw_html))
+                with t.div(classes=["d-flex", "justify-content-center"]):
+                    t.presentation_buttons(topic=topic)
         t.presentation_footer()
 
 

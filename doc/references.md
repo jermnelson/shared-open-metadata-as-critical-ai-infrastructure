@@ -27,8 +27,10 @@
 
 
 <h3 id="agi"><i class="bi bi-emoji-dizzy-fill"></i><i class="bi bi-bug-fill"></i><i class="bi bi-battery-charging"></i> Existential AI and Cautious Optimism</h3>
-- [The A.I. Prompt That Could End the World](https://www.nytimes.com/2025/10/10/opinion/ai-destruction-technology-future.html)
+- [List of p(doom) values](https://pauseai.info/pdoom)
 - [Remarks on AI from NZ](https://nealstephenson.substack.com/p/remarks-on-ai-from-nz)
+- [The A.I. Prompt That Could End the World](https://www.nytimes.com/2025/10/10/opinion/ai-destruction-technology-future.html)
+
 
 <h3 id="glam"><i class="bi bi-book"></i><i class="bi bi-arrows-move"></i><i class="bi bi-bookmark-check-fill"></i> GLAM Response</h3>
 
