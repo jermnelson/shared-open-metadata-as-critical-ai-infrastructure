@@ -1,9 +1,9 @@
 <h2><i class="bi-emoji-dizzy-fill"></i> Extinction through AI</h2>
 
 The development of Artificial General Intelligence (AGI) invokes heated emotions on many sides
-of the debate. With shocking estimates of p(doom), shorthand for the probability of human extinction 
-by AI, ranging from <0.01% to 99.99% among many of the top AI researchers and engineers.[^PDOOM]   
-
+of the debate. While estimates of p(doom), shorthand for the probability of human extinction or
+civilization collapse by AI, ranges from <0.01% to 99.99% among many of the top AI researchers and engineers[^PDOOM], 
+the average in 2025 23%![^PDOOM_AVG]
 
 <div class="row">
   <div class="col">
@@ -46,12 +46,15 @@ by AI, ranging from <0.01% to 99.99% among many of the top AI researchers and en
      <img src="static/img/dalle-3-extinction-through-ai.png" class="card-img-top" alt="Generated Dalle 3 image from prompt">
      <div class="card-body">
       <p class="card-text">
-        Generated image from Dalle 3 based on prompt, "Please illustrate Extinction through AI"
+        Generated image from Dalle 3 based on prompt, "Please illustrate Human Extinction through AI"
       </p>
      </div>
     </div>
   </div>
 </div>
 
+### What is your personal P(Doom) estimate?
+
 
 [^PDOOM]: [List of p(doom) values](https://pauseai.info/pdoom)
+[^PDOOM_AVG]: [P(Doom) for 2025](https://www.pdoom.app/)

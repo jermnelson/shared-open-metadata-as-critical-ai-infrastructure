@@ -27,12 +27,20 @@
 
 
 <h3 id="agi"><i class="bi bi-emoji-dizzy-fill"></i><i class="bi bi-bug-fill"></i><i class="bi bi-battery-charging"></i> Existential AI and Cautious Optimism</h3>
+- [Are We Becoming Mitochondria? The Human Role in the Age of AI](https://www.linkedin.com/posts/stevenwinkelstein_are-we-becoming-mitochondria-the-human-role-activity-7336834470819311618-ptZS/)
 - [List of p(doom) values](https://pauseai.info/pdoom)
+- [P(Doom) for 2025](https://www.pdoom.app/)
 - [Remarks on AI from NZ](https://nealstephenson.substack.com/p/remarks-on-ai-from-nz)
 - [The A.I. Prompt That Could End the World](https://www.nytimes.com/2025/10/10/opinion/ai-destruction-technology-future.html)
+- [The origin of mitochondria and chloroplasts](https://www.nature.com/scitable/content/the-origin-of-mitochondria-and-chloroplasts-14747702/)
 
 
-<h3 id="glam"><i class="bi bi-book"></i><i class="bi bi-arrows-move"></i><i class="bi bi-bookmark-check-fill"></i> GLAM Response</h3>
+<h3 id="glam"><i class="bi bi-book"></i><i class="bi bi-arrows-move"></i><i class="bi bi-bookmark-check-fill"></i> GLAM</h3>
+
+- [BIBFRAME 1.0 Vocabulary: Terminology and Conventions](https://www.loc.gov/bibframe/docs/vocab-conventions.html)
+- [Linked Open Data at SAAM](https://americanart.si.edu/about/lod)
+- [Media LOD Gateway (Production Environment)](https://data.getty.edu/media/)
+- [What is the CIDOC CRM?](https://cidoc-crm.org/)
 
 <h3 id="rag-graph-rag"><i class="bi bi-search"></i> <i class="bi bi-book"></i> Retrieval Augmented Generation</h3>
 
