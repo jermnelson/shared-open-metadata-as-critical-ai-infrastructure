@@ -26,4 +26,4 @@ the graph toolbox, users can:
 - Validate BIBFRAME Works and Instances with the SHACL graphs provided by the 
   BIBFRAME Interoperability Group.
 
-### Demonstration
+### Demonstration @ [https://dev.bcld.info/](https://dev.bcld.info/)

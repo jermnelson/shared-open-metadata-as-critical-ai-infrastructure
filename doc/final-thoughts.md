@@ -9,8 +9,8 @@
     - Donors
     - Suppliers and Vendors
 - **Token Affirmation and Access**
-    - Linked Open Data includes embeddings
-    - Serve all bot traffic, route to services
+    - Linked Open Data includes vector embeddings
+    - Serve AI bot traffic, route to services
 
 ### Blue Core Linked Open Data
 - **Blue Core Graph Services**
@@ -20,7 +20,7 @@
     - BIBFRAME RDF
     - Vector embeddings
 
-### Let us become the creative energy for powering AI Agent!
+### Let us become the creative energy for powering AI Agents!
 
 # ¡Muchas gracias! Thank you!
 
