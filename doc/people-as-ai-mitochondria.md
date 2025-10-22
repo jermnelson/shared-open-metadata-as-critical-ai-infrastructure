@@ -1,7 +1,7 @@
 <h2><i class="bi-battery-charging"></i> People as AI's Mitochondria</h2> 
 
 The consensus theory of the origins of mitochondria in living cells is *endosymbotic*.
-Mitochondria were free-living organism that was absorbed by a host cell to form 
+Mitochondria were free-living organisms that were absorbed by a host cell to form 
 a mutually beneficial eukaryotic cells, where mitochondria provide chemical energy to the host
 cell, and the host cell provides protection and absorbed much of the mitochondria genetic
 material.   
