@@ -22,7 +22,7 @@
 
 ### Let us become the creative energy for powering AI Agents!
 
-# ¡Muchas gracias! Thank you!
+# Thank you!
 
   
 

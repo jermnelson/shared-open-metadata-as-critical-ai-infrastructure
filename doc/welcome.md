@@ -4,8 +4,7 @@ Libraries' Digital Libraries Systems and Services division. Thank you to the DCM
 inviting me to talk about what I think is a critical 
 role of Linked Open Data in the Generative AI ecosystem.
 
-**DISCLAIMER:** All opinions and suppositions are my own and do not necessarily reflect
-those of my employer Stanford University Libraries. Also, Generative AI was used in 
-copy editing these remarks and for generating selected images.
+**DISCLAIMER:** Generative AI was used in copy editing these remarks and for 
+generating selected images.
 
 <img src="static/img/qr-code.png" alt="Presentation QR code" style="width: 250px">
