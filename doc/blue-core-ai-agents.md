@@ -21,6 +21,6 @@ and Instances for further manipulation and saving to the Blue Core database.
 The third AI agent will provide help in constructing SPARQL queries for retrieving
 and updating information in the loaded graph.
 
-### Implementation and Demo
+### Implementation 
 - Uses the [Pydantic AI](https://ai.pydantic.dev/) agent framework
 - Open source code available on Github at [https://github.com/blue-core-lod/bluecore-agents](https://github.com/blue-core-lod/bluecore-agents)
