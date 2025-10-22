@@ -3,8 +3,11 @@
 <h3 id="ai-general"><i class="bi bi-robot"></i> <i class="bi bi-chat-square-dots"></i> AI Agents and LLMs</h3>
 
 - [11/12/2024 Jupyter Notebook][JYPR_NBK]
+- [AI Bots Swarm Library, Cultural Heritage Sites, Causing Slowdowns and Crashes](https://www.libraryjournal.com/story/ai-bots-swarm-library-cultural-heritage-sites-causing-slowdowns-and-crashes)
 - [Claude for Chrome](https://www.anthropic.com/news/claude-for-chrome)
 - [Colleges And Schools Must Block And Ban Agentic AI Browsers Now. Here’s Why.](https://www.forbes.com/sites/avivalegatt/2025/09/25/colleges-and-schools-must-block-agentic-ai-browsers-now-heres-why/)
+- [The /llms.txt file](https://llmstxt.org/)
+- [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ&t=92s)
 - [Tracing the thoughts of a large language model](https://www.anthropic.com/research/tracing-thoughts-language-model)
 - [Why Language Models Hallucinate](https://openai.com/index/why-language-models-hallucinate/)
 

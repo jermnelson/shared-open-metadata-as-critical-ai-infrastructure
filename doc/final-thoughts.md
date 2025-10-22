@@ -1,8 +1,5 @@
 <h2><i class="bi-lightbulb"></i> Final Thoughts</h2> 
 
-### To Cooperate with Humans, AI Needs Competition
-
-
 ### Galleries, Libraries, Archives, and Museums 
 - **Operations should optimize token value to AI Agents for:**
     - Patrons
@@ -15,7 +12,17 @@
     - Linked Open Data includes embeddings
     - Serve all bot traffic, route to services
 
-# ¡Muchas gracias!
+### Blue Core Linked Open Data
+- **Blue Core Graph Services**
+    - Sinopia and Marva Linked Data Editors
+    - Shared Blue Core Database
+- **Publishing BIBFRAME Linked Open Data**
+    - BIBFRAME RDF
+    - Vector embeddings
+
+### Let us become the creative energy for powering AI Agent!
+
+# ¡Muchas gracias! Thank you!
 
   
 

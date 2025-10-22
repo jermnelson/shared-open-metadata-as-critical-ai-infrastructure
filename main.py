@@ -101,7 +101,7 @@ class PresentationFooter(Component):
                             t.img(src="static/img/dcmi-2025-home-banner.svg", style="width: 200px; padding: 1em;", alt="DCMI 2025 Logo")
                         with t.ul(class_name=""):
                             with t.li(class_name=""):
-                                 t.a("Source Code", href="https://github.com/jermnelson/shared-open-metadata-as-critical-ai-infrastructure")
+                                 t.a("Presentation Source Code", href="https://github.com/jermnelson/shared-open-metadata-as-critical-ai-infrastructure")
                 with t.div(class_name="col"):
                     with t.div(classes=["bg-light", "rounded-2"], style="margin: 1em; padding: 1em;"):
                         with t.a(href="https://bluecore.info/"):
@@ -145,7 +145,7 @@ class PresentationNavigation(Component):
     def populate(self):
         with t.ul(classes=["nav", "flex-column"]):
             with t.li(class_name="nav-item"):
-                with t.a(class_name="nav-link", href="/"):
+                with t.a(class_name="nav-link", href="/shared-open-metadata-as-critical-ai-infrastructure/"):
                     self.icon({"icon": "bi-house-door-fill"})
                     t.span(" Home")
             t.li("AI Orientation & Issues", class_name="nav-item")
