@@ -19,7 +19,7 @@ are shifting from work-to-motion,
 </blockquote>
 
 I have a more optimistic take, an aspiration for us humans is that we will become the equivalent of mitochondria 
-in a world of AGI, bring our creativity and perspective as a key driver in the progression and context-building
+in a world of AGI, bringing our creativity and perspective as a key driver in the progression and context-building
 for these future beings. Much like individual mitochondria in cells do not have a conception of the orders
 of magnitudes larger biological structures like organs or organisms, we humans may not  be able to conceive 
 or understand the functions, ecology, or economies of general super intelligence, our roles shift to becoming

@@ -6,9 +6,11 @@
 - [AI Bots Swarm Library, Cultural Heritage Sites, Causing Slowdowns and Crashes](https://www.libraryjournal.com/story/ai-bots-swarm-library-cultural-heritage-sites-causing-slowdowns-and-crashes)
 - [Claude for Chrome](https://www.anthropic.com/news/claude-for-chrome)
 - [Colleges And Schools Must Block And Ban Agentic AI Browsers Now. Here’s Why.](https://www.forbes.com/sites/avivalegatt/2025/09/25/colleges-and-schools-must-block-agentic-ai-browsers-now-heres-why/)
+- [What is the Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
 - [The /llms.txt file](https://llmstxt.org/)
 - [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ&t=92s)
 - [Tracing the thoughts of a large language model](https://www.anthropic.com/research/tracing-thoughts-language-model)
+- [When Bots Meet Books](https://rosalynmetz.substack.com/p/when-bots-meet-books)
 - [Why Language Models Hallucinate](https://openai.com/index/why-language-models-hallucinate/)
 
 <h3 id="bluecore">
